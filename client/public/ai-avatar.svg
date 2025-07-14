@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- AI Robot Avatar -->
+  <circle cx="32" cy="32" r="32" fill="url(#gradient)" />
+  
+  <!-- Robot Head -->
+  <rect x="18" y="16" width="28" height="32" rx="6" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="25" cy="28" r="4" fill="#60a5fa"/>
+  <circle cx="39" cy="28" r="4" fill="#60a5fa"/>
+  <circle cx="25" cy="28" r="2" fill="#ffffff"/>
+  <circle cx="39" cy="28" r="2" fill="#ffffff"/>
+  
+  <!-- Antenna -->
+  <line x1="32" y1="16" x2="32" y2="10" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="32" cy="8" r="2" fill="#ef4444"/>
+  
+  <!-- Mouth -->
+  <rect x="28" y="36" width="8" height="4" rx="2" fill="#1e40af"/>
+  
+  <!-- Verification Badge -->
+  <circle cx="46" cy="18" r="6" fill="#ffffff"/>
+  <path d="M46 15 L48 17 L51 14" stroke="#1d4ed8" stroke-width="2" fill="none"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
